@@ -102,4 +102,20 @@ body {
     margin-bottom: 2.2rem;
 }
 
- 
+.terceira-seção  > div {
+    display: flex;
+
+
+.terceira-seção img {
+    max-width: 6.25rem;
+}
+
+.terceira-seção strong{
+    color: var(--silver);
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+.terceira-seção h2{
+
+}
