@@ -1,91 +1,105 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script  src="./scripty.js" defer></script>
-    <title>W . Noticias</title>
-</head>
-<body class="tela-escurecer">
-    <header class="header-mobile">
-        <img src="./assets/images/logo.svg" alt="Logo site w">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>W. Notícias</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/images/logo.svg" alt="Logo Do site de Notícias">
         <button>
-            <img src="./assets/images/icon-menu.svg" alt="icone hambuguer">
+            <img src="./assets/images/icon-menu.svg" alt="icone do meu Hamburguer">
         </button>
-        <nav class="abrir">
+
+       
+
+        <nav class="mobile">
             <button>
-                <img src="./assets/images/icon-menu-close.svg" alt="icone dex para fechar o enu">
+                <img src="./assets/images/icon-menu-close.svg" alt="Botão X para fechar o menu">
             </button>
+
             <a href="#">Home</a>
             <a href="#">Novo</a>
             <a href="#">Popular</a>
-            <a href="#">Treeding</a>
+            <a href="#">Trending</a>
+            <a href="#">Categorias</a>
+        </nav>
+        <nav class="desktop">
+            <a href="#">Home</a>
+            <a href="#">Novo</a>
+            <a href="#">Popular</a>
+            <a href="#">Trending</a>
             <a href="#">Categorias</a>
         </nav>
     </header>
 
     <main>
         <section class="primeira-seção">
-            <img src="./assets/images/image-web-3-mobile.jpg" alt="icone de puzzle ">
-
-            <h1>O Fututo brilhante da web 3.0</h1>
-
-            <p>Nós mergulhamos na próxima evolução da web que afirma devolver o poder das plataformas para as mãos das pessoas. Mas será que ela realmente está cumprindo sua promessa?</p>
-
-            <button>Ler Mais</button>
-        </section>
-        
-        <section class="segunda-seção">
-            <h2>Novo</h2>
-       
-            <div class="magin-border-padding  ">
-                <h3>Hidrogenio VS Carros Elétricos</h3>
-                <p>Os carros movidos a hidrogenio alguma vez alcançarão os veículos elétricos?</p>
+            <picture>
+                <source media="(min-width: 700px)" srcset="./assets/images/image-web-3-desktop.jpg">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="Icone de Puzze Colorido">
+            </picture>
+             <h1>O Futuro brilhante da Web 3.0?</h1>
+            <div>
+                <p>Nós mergulhamos na próxima evolução da web que afirma devolver o poder das plataformas para as mãos das pessoas. Mas será que ela realmente está cumprindo sua promessa?</p>
+                <button> Ler Mais </button>
             </div>
-            <div class="magin-border-padding ">
-                <h3>Arte gerada por IA</h3>
-                <p>Quais são os possíveis efeitos adversos da geração de imagens por IA sob demanda?</p>
+        </section>
+
+        <section class="segunda-seção">
+            <h2> Novo </h2>
+
+            <div class="margin-border-padding">
+                <h3> Hidrogênio VS Carros Elétricos </h3>
+                <p>Os carros movido a hidrogênio alguma vez alcançarão os veículos elétricos?</p>
+            </div>
+            <div class="margin-border-padding">
+                <h3> A arte gerada por IA </h3>
+                <p>Quaiss são os possíveis efeitos adversos da geração de imagens por IA sob</p>
             </div>
             <div>
-                <h3>O VC Fuding está esgotado?</h3>
-                <p>O financeamento privado por empresas em capital de risco caiu 50%</p>
+                <h3> O VC Funding está essgotado? </h3>
+                <p>O Financiamento privado por empresas de capital de risco caiu 50%.</p>
             </div>
         </section>
-        
+
         <section class="terceira-seção">
             <div>
-                <img src="assets/images/image-retro-pcs.jpg" alt="imagens de computadores antigos">
+                <img src="./assets/images/image-retro-pcs.jpg" alt="Imagem de Pcs Antigos">
                 <div>
                     <strong>01</strong>
-                    <h2>Revisando PCs antigos </h2>
-                    <p>E se PCs antigos pudessem receber peças modernas? </p>
+                    <a href="#"><h2>Revivendo PCS antigos</h2></a>
+                    
+                    <p>E se PCs antigos pudessem receber peças modernas?</p>
                 </div>
-
-
+            </div>
+            <div>
+                <img src="./assets/images/image-top-laptops.jpg" alt="Imagem de um Teclado">
                 <div>
-                    <img src="assets/images/image-top-laptops.jpg" alt="Imagem de laptops">
-                    <div>
-                        <strong>02</strong>
-                        <h2>Top 10 leptops de 2024</h2>
-                        <p>Nossas melhores escolhas para diversas necessidades. </p>
-                    </div>
+                    <strong>02</strong>
+                    <a href="#"><h2>Top 10 Laptops de 2024</h2></a>
+                    
+                    <p>Nossas melhores escolhas para diversas necessidades.</p>
                 </div>
+            </div>
+            <div>
+                <img src="./assets/images/image-gaming-growth.jpg" alt="Imagem de Controle Voando em cima de uma mão">
                 <div>
-                    <img src="assets/images/image-gaming-growth.jpg" alt="imagen de um controle ">
-                    <div>
-                        <strong>03</strong>
-                        <h2>O crecimento dos jogos</h2>
-                        <p>Como a pandemia tem gerado novas oportunidades.</p>
-                    </div>
+                    <strong>03</strong>
+                    <a href="#"><h2>O Crescimento dos Jogos</h2></a>
+                    
+                    <p>Com a pandemia tem gerado novas oportunidades.</p>
                 </div>
             </div>
         </section>
     </main>
-
 </body>
 </html>
